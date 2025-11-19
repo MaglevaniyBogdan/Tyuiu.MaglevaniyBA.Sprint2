@@ -11,7 +11,7 @@ namespace Tyuiu.MaglevaniyBA.Sprint2.Task0.V5.Test
             DataService ds = new DataService();
             int x = 105;
             int y = 223;
-            bool[] wait = { false, true, true, false, true, false };
+            bool[] wait = { false, true, true, true, false, true };
             bool[] res = ds.GetCompareOperations(x, y);
             CollectionAssert.AreEqual(wait, res);
         }

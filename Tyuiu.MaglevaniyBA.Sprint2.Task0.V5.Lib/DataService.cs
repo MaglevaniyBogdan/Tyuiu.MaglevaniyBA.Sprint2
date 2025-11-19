@@ -12,9 +12,9 @@ namespace Tyuiu.MaglevaniyBA.Sprint2.Task0.V5.Lib
             results[0] = x == y;      
             results[1] = x != y;        
             results[2] = x < y;       
-            results[3] = x > y;       
-            results[4] = x <= y;      
-            results[5] = x >= y;      
+            results[3] = y > x;       
+            results[4] = y <= x;      
+            results[5] = y >= x;      
 
             return results;
         }
