@@ -31,7 +31,7 @@ namespace Tyuiu.MaglevaniyBA.Sprint2.Task6.V11.Lib
                 }
             }
 
-            return $"{nextYear}-{nextMonth:D2}-{nextDay:D2}";
+            return $"{nextDay:D2}.{nextMonth:D2}.{nextYear}";
         }
     }
 }
