@@ -8,9 +8,9 @@ namespace Tyuiu.MaglevaniyBA.Sprint2.Task0.V5.Lib
         {
             bool[] results = new bool[6];
 
-            
+           
             results[0] = x == y;      
-            results[1] = x != y;       
+            results[1] = x != y;        
             results[2] = x < y;       
             results[3] = x > y;       
             results[4] = x <= y;      
